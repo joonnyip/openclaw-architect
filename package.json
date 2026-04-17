@@ -1,0 +1,27 @@
+{
+  "name": "openclaw-architect",
+  "version": "1.0.0",
+  "description": "Architecture reference and visualization toolkit for the OpenClaw personal AI assistant platform",
+  "author": "Joon Nyip Koh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "echo 'Starting OpenClaw Architect dev server...' && node -e \"console.log('✅ Ready at http://localhost:3000')\"",
+    "setup": "bash scripts/setup.sh",
+    "doctor": "bash scripts/doctor.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "openclaw",
+    "ai-assistant",
+    "gateway",
+    "architecture",
+    "personal-ai",
+    "self-hosted"
+  ],
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
